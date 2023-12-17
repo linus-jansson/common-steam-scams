@@ -39,8 +39,9 @@ function PostCard(post: Scam) {
 function Header() {
     return (
         <>
-            <header className="text-center text-sm container mx-auto pt-8 flex flex-row justify-start gap-x-6">
+            <header className="text-center items-center text-sm container mx-auto pt-8 flex justify-start">
                 <TitleText/>
+                <span className='ml-auto mr-8'>logo</span>
             </header>
             <span className='divider mx-12' />
         </>
