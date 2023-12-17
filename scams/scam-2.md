@@ -1,7 +1,7 @@
 ---
-title: "I have accidentally reported your account"
+title: "Do you want to play in a tournament?"
 date: 2021-12-24
-reference: https://help.steampowered.com/en/faqs/view/3195-9FFB-BA06-F25B
+reference: https://example.com/
 ---
 
 Ullamco et nostrud magna commodo nostrud ...

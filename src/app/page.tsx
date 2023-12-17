@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from 'date-fns'
 import { allScams, Scam } from 'contentlayer/generated'
-
+import { Fragment } from 'react'
 function GithubIcon(){
     return (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -39,7 +39,7 @@ function PostCard(post: Scam) {
 function Header() {
     return (
         <>
-            <header className="text-center text-sm container mx-auto  pt-4 flex flex-row justify-start gap-x-6">
+            <header className="text-center text-sm container mx-auto pt-8 flex flex-row justify-start gap-x-6">
                 <TitleText/>
             </header>
             <span className='divider mx-12' />
@@ -50,8 +50,8 @@ function Header() {
 function Footer() {
     return (
         <>
-            <div className='divider mx-12' />
-            <footer className="text-center text-sm container mx-auto pt-4 px-8 flex flex-row justify-start gap-x-6">
+            <div className='divider mx-12'/>
+            <footer className="text-sm container mx-auto pt-4 px-8 flex flex-col md:flex-row justify-start gap-x-6">
                 <p>
                 Built By{' '}<a href="https://limpan.dev/" className="link link-primary">Limpan</a>{' '}
                 .
@@ -95,7 +95,7 @@ export default function Home() {
 
                 <div>
                     <p>Is something missing from this list?{' '}</p>
-                    <p>Contact me{' '}<a href="mailto:steamscams@limpan.dev" className='link link-info'>Here!</a></p>
+                    <p>Contact me{' '}<a href="mailto:steamscams@limpan.dev" className='link link-primary'>Here!</a></p>
                 </div>
             </section>
 
