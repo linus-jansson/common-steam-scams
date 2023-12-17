@@ -95,7 +95,7 @@ export default function Home() {
 
                 <div>
                     <p>Is something missing from this list?{' '}</p>
-                    <p>Contact me{' '}<a href="mailto:contact@steamscams.com" className='link link-info'>Here!</a></p>
+                    <p>Contact me{' '}<a href="mailto:steamscams@limpan.dev" className='link link-info'>Here!</a></p>
                 </div>
             </section>
 
