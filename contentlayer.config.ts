@@ -7,6 +7,7 @@ export const Scam = defineDocumentType(() => ({
   fields: {
     title: { type: 'string', required: true },
     date: { type: 'date', required: true },
+    reference: { type: 'string', required: false },
   },
   computedFields: {
     url: { type: 'string', resolve: (post) => `/Scams/${post._raw.flattenedPath}` },
