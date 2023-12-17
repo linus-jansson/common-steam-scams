@@ -64,7 +64,7 @@ function Footer() {
                     </a>
 
                 </div>
-                <p>Support me{' '}<a className='link link-primary' href="https://limpan.dev">here</a>{''}!</p>
+                {/* <p>Support me{' '}<a className='link link-primary' href="https://limpan.dev">here</a>{''}!</p> */}
             </footer>
         </>
     )
@@ -89,9 +89,14 @@ export default function Home() {
 
             <section className='grid md:grid-cols-2 gap-12'>
 
-                {scams.map((scam: Scam) => (
+                {/* {scams.map((scam: Scam) => (
                     <PostCard key={scam._id} {...scam} />
-                ))}
+                ))} */}
+
+                <div>
+                    <p>Is something missing from this list?{' '}</p>
+                    <p>Contact me{' '}<a href="mailto:contact@steamscams.com" className='link link-info'>Here!</a></p>
+                </div>
             </section>
 
 
